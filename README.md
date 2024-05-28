@@ -1,4 +1,4 @@
-# NanoscopeAFM_ForceCurve_analysis
+# Nanoscope_AFM_ForceCurve_analysis
 
 
 ## _Introduction_ 
