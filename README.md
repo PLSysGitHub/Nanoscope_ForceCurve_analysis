@@ -22,5 +22,5 @@ _Nanoscope_converter.py_ contains a function to parse the raw AFM force curve fi
 The idea is to use the functions within these scripts to perform automated analyses of multiple force curves. The functions can be inserted into a _for loop_ in order to parse and extract the data of several curves or to automatically fit them.
 
 To install all the needed requirements, run the following command on the terminal, in the directory where all the repository has been cloned:
-pip install -r requirements.txt
+_pip install -r requirements.txt_
 
