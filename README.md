@@ -21,6 +21,6 @@ _**- nanoscope_CurveFit.py**:_ this script contains 2 different functions that a
 _Nanoscope_converter.py_ contains a function to parse the raw AFM force curve file and export the necessary data. _nanoscope_CurvesContactPoint_determination.py_ contains two different functions to estimate the contact point along the indenting force curve. These two scripts are used by _nanoscope_CurveFit.py_, which provides two different analyses of the force curves, it can fit the indenting curve with different contact mechanics models or it can calculate the area under the indenting and retracting curves to estimate the energy dissipation. More details can be found below and also within each script.
 The idea is to use the functions within these scripts to perform automated analyses of multiple force curves. The functions can be inserted into a _for loop_ in order to parse and extract the data of several curves or to automatically fit them.
 
-To install all the needed requirements, run the following command on the terminal:
+To install all the needed requirements, run the following command on the terminal, in the directory where all the repository has been cloned:
 pip install -r requirements.txt
 
