@@ -16,6 +16,8 @@ _The above-mentioned scripts are used within the other ones to process multiple 
 
 _**- nanoscope_CurveFit.py**:_ this script contains 2 different functions that allow processing and analysing the force curves. The first one is used to fit the indenting force curve with appropriate contact mechanics models; the second functions calculates the area under the indenting and retracting curve in order to extract information on the viscoelasticity of the sample (representative figures of its output is present in the folder).
 
+_**- Example.py**:_ this script shows how the above mentioned scripts can be used in order to automatically read, plot, export and process all the force curves contained within a specific folder.
+
 ## _Workflow_
 
 _Nanoscope_converter.py_ contains a function to parse the raw AFM force curve file and export the necessary data. _nanoscope_CurvesContactPoint_determination.py_ contains two different functions to estimate the contact point along the indenting force curve. These two scripts are used by _nanoscope_CurveFit.py_, which provides two different analyses of the force curves, it can fit the indenting curve with different contact mechanics models or it can calculate the area under the indenting and retracting curves to estimate the energy dissipation. More details can be found below and also within each script.
