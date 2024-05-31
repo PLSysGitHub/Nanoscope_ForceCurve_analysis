@@ -37,7 +37,9 @@ for curve in curves:
     plt.title(curve.split("/")[-1])
     plt.show()
 
-
+# The force curve from Bruker Multimode is obtained from indentation on a bare surface and so the Hertz fit reported
+# here as an example fails in the fitting procedure. For this reason the curve is removed from the analysis
+curves = [curve for curve in curves if "BrukerMultimode" not in curve]
 # Fitting and plotting individual curves
 for curve in curves:
     # The plotting can be activated/deactivated within the indentation_fit function
