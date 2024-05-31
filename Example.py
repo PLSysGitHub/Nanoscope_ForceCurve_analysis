@@ -33,6 +33,7 @@ for curve in curves:
     ax.plot(rt_sep, rt_force, c="r", zorder=1)
     ax.set_ylabel("Force (pN)")
     ax.set_xlabel("Separation (nm)")
+    plt.title(curve.split("/")[-1])
     plt.show()
 
 
