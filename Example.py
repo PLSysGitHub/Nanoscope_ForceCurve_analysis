@@ -13,6 +13,7 @@ local_dir = os.path.dirname(os.path.abspath(__file__))
 curves = [local_dir + "/Example_RawData/" + curve for curve in os.listdir("Example_RawData")]
 
 # Plotting and saving individual curves
+print(curves)
 for curve in curves:
     curve_data = nanoscope_converter(curve)
     # Indenting curve data
